@@ -1,20 +1,32 @@
 import React, { useState } from "react";
 import { FaFacebook } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
 import "./Login.css";
-
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  const [error,setError]=useState("");
+  const navigate = useNavigate();
   const handleLogin = (e) => {
     e.preventDefault();
-    // Add your login logic here
+    const email = e.target.email.value;
+    const password = e.target.password.value;
     console.log("Logging in with", email, password);
+    if (!email || !password) {
+        setError('Both fields are required');
+        return;
+      }
+      if (email === 'user123@gmail.com' && password === 'password123') {
+        setError('');
+        navigate('/home');
+      } else {
+        setError('Invalid credentials');
+      }
   };
 
   return (
@@ -64,7 +76,6 @@ const Login = () => {
         </div>
 
         <button type="submit" className="login-button">Login</button>
-
         <p className="connect-text">or connect with</p>
 
         <div className="social-icons">
@@ -73,6 +84,7 @@ const Login = () => {
           <button className="icon"><FaPinterest/></button>
           <button className="icon"><FaLinkedinIn/></button>
         </div>
+        {error && <p style={{ color: 'red' }}>{error}</p>}
       </form>
     </div>
   );

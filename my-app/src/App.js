@@ -5,6 +5,7 @@ import Chatbot from './components/Chatbot';
 import Translator from './components/Translator';
 import FAQ from './components/FAQ';
 import About from './components/About';
+import FAQForm from './components/FAQForm';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/translator" element={<Translator/>} />
         <Route path="/faq" element={<FAQ/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/faqForm" element={<FAQForm/>} />
       </Routes>
     </Router>
   );
