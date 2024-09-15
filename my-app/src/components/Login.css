@@ -1,0 +1,138 @@
+/* Container for the entire page */
+.login-container {
+    width: 375px;
+    height: 661px;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 40px ;
+    border: 1px solid #ccc;
+
+  }
+  
+  /* Heading */
+  .login-header {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+  }
+  
+  /* Terms and Privacy */
+  .terms-text {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .terms-text span {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  /* Login/Register Tabs */
+  .login-options {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tab {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #A6A6A6;
+    background: none;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .active {
+    color: #036BB9;
+    border-bottom: 2px solid #036BB9;
+  }
+  
+  /* Form Inputs */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    margin: 10px 0;
+    width: 100%;
+    display: inline-flex;
+  }
+  
+  
+  .input-group input {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none
+  }
+  
+  /* Remember & Forgot Password */
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .forgot-password {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Login Button */
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Sakkal Majalla', sans-serif;
+    background-color: #036BB9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Connect with text */
+  .connect-text {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .icon {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  

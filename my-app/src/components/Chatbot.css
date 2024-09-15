@@ -1,0 +1,125 @@
+/* Chatbot Container */
+.chatbot-container {
+    width: 359px;
+    height: 704px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Chat Header */
+  .chat-header {
+    background-color: #6C63FF;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .last-seen {
+    font-size: 12px;
+    color: #dcdcdc;
+  }
+  
+  .chat-options i {
+    font-size: 18px;
+  }
+  
+  /* Chat Messages Section */
+  .chat-messages {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-bubble {
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 19px;
+    position: relative;
+  }
+  
+  .chat-bubble.sent {
+    align-self: flex-end;
+    background-color: #6C63FF;
+    color: white;
+    border-bottom-right-radius: 0;
+  }
+  
+  .chat-bubble.received {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    color: #333;
+    border-bottom-left-radius: 0;
+  }
+  
+  .chat-time {
+    font-size: 10px;
+    color: #999;
+    position: absolute;
+    bottom: -15px;
+    right: 5px;
+  }
+  
+  /* Message Input Section */
+  .message-input {
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .message-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .message-input button {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .message-input button i {
+    font-size: 16px;
+  }
+  

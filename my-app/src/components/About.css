@@ -1,0 +1,91 @@
+.parent{
+    width: 375px;
+height: 661px;
+top: -240px;
+left: 124px;
+border-radius: 50px ;
+margin: auto auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+border: 0.5px solid #D2E7FF80
+}
+.container{
+width: 375px;
+height: 379px;
+top: 283px;
+border-radius: 47px 45px 50px 50px;
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+}
+
+.container-1{
+    width: 296px;
+height: 38px;
+top: 487px;
+left: 39px;
+gap: 0px;
+opacity: 0px;
+
+}
+.heading{
+    font-family: Dosis;
+font-size: 30px;
+font-weight: 600;
+line-height: 37.92px;
+text-align: center;
+
+}
+.container-2{
+    width: 296px;
+    height: 133px;
+    top: 536px;
+    left: 39px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.sub-text{
+    font-family: Dosis;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.96px;
+text-align: center;
+color: #8E9399;
+}
+.container-3{
+    width: 258px;
+height: 50px;
+
+top: 706px;
+left: 58px;
+gap: 0px;
+opacity: 0px;
+
+}
+.sub-container{
+background-color: black;
+left: 151px;
+padding: 10px;
+gap: 10px;
+opacity: 0px;
+border-radius:40px;
+
+}
+.text-btn{
+font-family: Dosis;
+font-size: 15px;
+font-weight: 800;
+line-height: 18.96px;
+letter-spacing: 1px;
+text-align: center;
+color: white;
+margin: auto auto;
+
+}

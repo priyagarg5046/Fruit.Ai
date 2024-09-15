@@ -1,0 +1,112 @@
+/* General layout for the login container */
+.login-container {
+  width: 284px;   
+  height: 50px;   
+ 
+  top: 49px;      
+  left: 63px;     
+  text-align: center;
+}
+
+/* Login Heading Styles */
+.login-heading {
+  font-family: 'Sakkal Majalla', sans-serif;
+  font-size: 40px;       /* Font size as instructed */
+  font-weight: 400;
+  line-height: 55.86px;
+  text-align: center;
+  color: #000000;        /* Text color black */
+  opacity: 1;
+}
+
+/* Terms and Privacy Policy Note */
+.terms-note {
+  width: 233px;         
+  height: 72px;          
+  top: 109px;            
+  left: 91px;            
+  font-family: 'Sakkal Majalla', sans-serif;
+  font-size: 25px;       
+  font-weight: 400;
+  line-height: 34.91px; 
+  text-align: center;
+  color: #000;           
+ 
+}
+
+.terms-link {
+  font-family: 'Sakkal Majalla', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.91px;
+  text-align: center;
+  color: blue;           
+  cursor: pointer;
+}
+/* Container for Login and Register Buttons */
+.login-register-container {
+  position: relative;
+  top: 210px;  /* Set the top positioning as specified */
+  left: 136px; /* Position the container at 136px from the left */
+}
+
+/* Login Button Styles */
+.login-btn {
+  width: 43px;          /* Width for the Login button */
+  height: 35px;         /* Height for the Login button */
+  color: #036BB9; /* Background color as instructed */
+  font-family: 'Sakkal Majalla', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.91px;
+  text-align: left;
+  border: none;
+  
+  cursor: pointer;
+  position: absolute;
+  left: 0px;  /* Ensure the Login button stays at the starting position */
+}
+
+/* Register Button Styles */
+.register-btn {
+  width: 63px;          /* Width for the Register button */
+  height: 35px;         /* Height for the Register button */
+  color: #A6A6A6; /* Background color for the Register button */
+  font-family: 'Sakkal Majalla', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.91px;
+  text-align: left;
+  border: none;
+  
+  cursor: pointer;
+  position: absolute;
+  left: 72px; /* This places the Register button 72px to the right of the Login button */
+}
+
+
+/* Login Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.login-form label {
+  font-family: 'Sakkal Majalla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  width: 100%;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}

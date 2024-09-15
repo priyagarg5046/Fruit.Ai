@@ -1,0 +1,84 @@
+/* Container for the entire page */
+.homepage-container {
+    width: 375px;
+    height: 661px;
+    margin: auto auto;
+    background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Title and Subtitle */
+  .title {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .subtitle {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  /* Services Grid */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 137px);
+    grid-template-rows: repeat(2, 139px);
+    grid-gap: 20px;
+  }
+  
+  /* Service Box */
+  .service-box {
+    width: 127px;
+    height: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #8E44AD; /* Purple text color for Chat, FAQs, About */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Colors for each service box */
+  .chat {
+    background-color: #FFDAB9; /* Light orange */
+  }
+  
+  .translate {
+    background-color: #B0E57C; /* Light green */
+  }
+  
+  .faqs {
+    background-color: #E0BBE4; /* Light purple */
+  }
+  
+  .about {
+    background-color: #FFB6C1; /* Light pink */
+  }
+  
+  /* Pagination dots */
+  .pagination-dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  

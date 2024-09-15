@@ -1,0 +1,66 @@
+/* Container for the FAQ section */
+.faq-container {
+    width: 359px;
+    margin: auto auto;
+    background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+    padding: 20px;
+    border-radius: 50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* FAQ Title */
+  .faq-title {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* FAQ Card */
+  .faq-card {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+  
+  /* Image inside each FAQ card */
+  .faq-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* FAQ Content (Title and Description) */
+  .faq-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* FAQ Question */
+  .faq-question {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF6F61; /* Orange for question */
+    margin: 0;
+  }
+  
+  /* FAQ Answer */
+  .faq-answer {
+    font-family: 'Sakkal Majalla', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+  
